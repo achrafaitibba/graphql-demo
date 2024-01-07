@@ -1,0 +1,16 @@
+type Car {
+    id: ID
+    brand: Brand
+
+}
+
+enum Brand {
+    PORSHE
+    BWM
+    AUDI
+    MERCEDES
+}
+
+type Query {
+    getAll: [Car]
+}
